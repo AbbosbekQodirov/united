@@ -49,19 +49,19 @@ function Home() {
             <h1 className="section_title">Our Priorities</h1>
             <div className="priorities">
               <div>
-                <img src="../../../public/imgs/priorities1.png" alt="" />
+                <img src="../public/imgs/priorities1.png" alt="" />
                 <h3>Safety</h3>
               </div>
               <div>
-                <img src="../../../public/imgs/priorities2.png" alt="" />
+                <img src="../public/imgs/priorities2.png" alt="" />
                 <h3>Safety</h3>
               </div>
               <div>
-                <img src="../../../public/imgs/priorities3.png" alt="" />
+                <img src="../public/imgs/priorities3.png" alt="" />
                 <h3>Safety</h3>
               </div>
               <div>
-                <img src="../../../public/imgs/priorities4.png" alt="" />
+                <img src="../public/imgs/priorities4.png" alt="" />
                 <h3>Safety</h3>
               </div>
             </div>
