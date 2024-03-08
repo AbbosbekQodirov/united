@@ -1,0 +1,56 @@
+nav {
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    transition: all .3s ease;
+}
+
+.navbar.fixed {
+    background-color: #E9EEF4;
+}
+
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    transition: all .4s ease;
+}
+
+.navbar.fixed .container {
+    padding: 20px 0px;
+}
+
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.logoImg {
+    width: 300px;
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.links button {
+    padding: 10px 25px;
+    color: white;
+    background: linear-gradient(90deg, #FF0089, #00B3FF);
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+    letter-spacing: .5px;
+}
+
+.links a.active {
+    background: -webkit-linear-gradient(45deg, #FF0089, #00B3FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
