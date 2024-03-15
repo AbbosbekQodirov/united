@@ -10,7 +10,40 @@ import "swiper/css/navigation";
 import { Autoplay, EffectCoverflow, Pagination, Navigation } from "swiper";
 
 function Slider() {
-  const [imgs, setImgs] = useState(["", "", "", "", "", "", "", ""]);
+  const [imgs, setImgs] = useState([
+    {
+      img: "/public/imgs/herobg1.png",
+      title: "Emerald Castle Residence",
+    },
+    {
+      img: "/public/imgs/herobg2.png",
+      title: "Maison Calme",
+    },
+    {
+      img: "/public/imgs/herobg1.png",
+      title: "Emerald Castle Residence",
+    },
+    {
+      img: "/public/imgs/herobg2.png",
+      title: "Maison Calme",
+    },
+    {
+      img: "/public/imgs/herobg1.png",
+      title: "Emerald Castle Residence",
+    },
+    {
+      img: "/public/imgs/herobg2.png",
+      title: "Maison Calme",
+    },
+    {
+      img: "/public/imgs/herobg1.png",
+      title: "Emerald Castle Residence",
+    },
+    {
+      img: "/public/imgs/herobg2.png",
+      title: "Maison Calme",
+    },
+  ]);
   return (
     <div className="slides homeslides">
       <div className="container ">
@@ -43,7 +76,10 @@ function Slider() {
             return (
               <SwiperSlide>
                 <div className="hero">
-                  <div className="container">
+                  <div
+                    style={{ backgroundImage: `url(${item.img})` }}
+                    className="container"
+                  >
                     <div className="hero_info ">
                       <h3>Beautiful view</h3>
                       <p>
@@ -78,7 +114,7 @@ function Slider() {
                   </div>
 
                   <div>
-                    <h2 className="hero_title">Emerald Castle Residence</h2>
+                    <h2 className="hero_title">{item.title}</h2>
                   </div>
                 </div>
               </SwiperSlide>

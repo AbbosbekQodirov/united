@@ -60,6 +60,7 @@ nav .container {
     font-size: 22px;
     display: flex;
     color: #FF0089;
+    display: none;
 }
 
 .menu_list {
@@ -100,6 +101,9 @@ nav .container {
 @media (max-width: 476px) {
     .container {
         padding: 20px 10px !important;
+    }
+    .menu_icon{
+        display: block;
     }
 
     .links {

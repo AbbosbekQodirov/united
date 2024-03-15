@@ -3,6 +3,7 @@ import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/logo.svg";
 import { HiMiniBars3BottomRight } from "react-icons/hi2";
+import { IoMdClose } from "react-icons/io";
 
 function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
@@ -38,7 +39,7 @@ function Navbar() {
           }}
           className="menu_icon"
         >
-          <HiMiniBars3BottomRight />
+          {showMenu ? <IoMdClose /> : <HiMiniBars3BottomRight />}
         </span>
       </div>
       <ul className={showMenu ? " menu_list active" : "menu_list"}>
