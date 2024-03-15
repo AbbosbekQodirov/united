@@ -64,17 +64,20 @@ nav .container {
 }
 
 .menu_list {
+    width: 100%;
     position: fixed;
     right: 0px;
     background-color: rgba(255, 255, 255, 0.47) !important;
     backdrop-filter: blur(4px);
-    text-align: right !important;
-    padding: 30px 20px;
+    text-align: center !important;
+    padding: 50px 30px;
     border-radius: 5px;
     line-height: 30px;
     right: -400px;
     transition: all .3s ease;
     box-shadow: 0px 0px 10px 2px rgb(75, 75, 75);
+    font-size: 22px;
+    line-height: 40px;
 }
 
 .menu_list.active {
@@ -93,7 +96,7 @@ nav .container {
     background: linear-gradient(90deg, #FF0089, #00B3FF);
     border-radius: 5px;
     border: none;
-    font-size: 12px;
+    font-size: 16px;
     margin-top: 10px;
     cursor: pointer;
 }
@@ -102,7 +105,8 @@ nav .container {
     .container {
         padding: 20px 10px !important;
     }
-    .menu_icon{
+
+    .menu_icon {
         display: block;
     }
 
