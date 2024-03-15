@@ -12,35 +12,35 @@ import { Autoplay, EffectCoverflow, Pagination, Navigation } from "swiper";
 function Slider() {
   const [imgs, setImgs] = useState([
     {
-      img: "/public/imgs/herobg1.png",
+      img: "/imgs/herobg1.png",
       title: "Emerald Castle Residence",
     },
     {
-      img: "/public/imgs/herobg2.png",
+      img: "/imgs/herobg2.png",
       title: "Maison Calme",
     },
     {
-      img: "/public/imgs/herobg1.png",
+      img: "/imgs/herobg1.png",
       title: "Emerald Castle Residence",
     },
     {
-      img: "/public/imgs/herobg2.png",
+      img: "/imgs/herobg2.png",
       title: "Maison Calme",
     },
     {
-      img: "/public/imgs/herobg1.png",
+      img: "/imgs/herobg1.png",
       title: "Emerald Castle Residence",
     },
     {
-      img: "/public/imgs/herobg2.png",
+      img: "/imgs/herobg2.png",
       title: "Maison Calme",
     },
     {
-      img: "/public/imgs/herobg1.png",
+      img: "/imgs/herobg1.png",
       title: "Emerald Castle Residence",
     },
     {
-      img: "/public/imgs/herobg2.png",
+      img: "/imgs/herobg2.png",
       title: "Maison Calme",
     },
   ]);
