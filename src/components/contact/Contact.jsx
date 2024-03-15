@@ -10,7 +10,7 @@ function Contact() {
         <div className="contacts">
           <div className="contact">
             <span>
-              <img src="/public/imgs/addres.svg" alt="" />
+              <img src="/imgs/addres.svg" alt="" />
             </span>
             <h3>Adress</h3>
             <p>U.S.A California</p>
@@ -18,7 +18,7 @@ function Contact() {
           </div>
           <div className="contact">
             <span>
-              <img src="/public/imgs/call.svg" alt="" />
+              <img src="/imgs/call.svg" alt="" />
             </span>
             <h3>Contact</h3>
             <p>+14 (842) 989 2259</p>
@@ -26,7 +26,7 @@ function Contact() {
           </div>
           <div className="contact">
             <span>
-              <img src="/public/imgs/mail.svg" alt="" />
+              <img src="/imgs/mail.svg" alt="" />
             </span>
             <h3>Mail</h3>
             <p>uniteddolphins@mail.com</p>

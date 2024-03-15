@@ -32,7 +32,7 @@ function Team() {
             <div className="members">
               <div className="member">
                 <div>
-                  <img src="/public/imgs/user1.png" alt="" />
+                  <img src="/imgs/user1.png" alt="" />
                   <div className="member_info">
                     <p>
                       Lorem ipsum dolor sit amet consectetur. Euismod lectus
@@ -53,7 +53,7 @@ function Team() {
               </div>
               <div className="member">
                 <div>
-                  <img src="/public/imgs/user1.png" alt="" />
+                  <img src="/imgs/user1.png" alt="" />
                   <div className="member_info">
                     <p>
                       Lorem ipsum dolor sit amet consectetur. Euismod lectus
@@ -74,7 +74,7 @@ function Team() {
               </div>
               <div className="member">
                 <div>
-                  <img src="/public/imgs/user1.png" alt="" />
+                  <img src="/imgs/user1.png" alt="" />
                   <div className="member_info">
                     <p>
                       Lorem ipsum dolor sit amet consectetur. Euismod lectus
@@ -95,7 +95,7 @@ function Team() {
               </div>
               <div className="member">
                 <div>
-                  <img src="/public/imgs/user1.png" alt="" />
+                  <img src="/imgs/user1.png" alt="" />
                   <div className="member_info">
                     <p>
                       Lorem ipsum dolor sit amet consectetur. Euismod lectus
@@ -116,7 +116,7 @@ function Team() {
               </div>
               <div className="member">
                 <div>
-                  <img src="/public/imgs/user1.png" alt="" />
+                  <img src="/imgs/user1.png" alt="" />
                   <div className="member_info">
                     <p>
                       Lorem ipsum dolor sit amet consectetur. Euismod lectus
@@ -137,7 +137,7 @@ function Team() {
               </div>
               <div className="member">
                 <div>
-                  <img src="/public/imgs/user1.png" alt="" />
+                  <img src="/imgs/user1.png" alt="" />
                   <div className="member_info">
                     <p>
                       Lorem ipsum dolor sit amet consectetur. Euismod lectus
@@ -163,12 +163,12 @@ function Team() {
           <div className="container">
             <h1 className="section_title">Team members</h1>
             <div className="memories">
-              <img src="/public/imgs/team1.png" alt="" />
+              <img src="/imgs/team1.png" alt="" />
               <div className="imgs">
-                <img src="/public/imgs/team2.png" alt="" />
-                <img src="/public/imgs/team3.png" alt="" />
-                <img src="/public/imgs/team4.png" alt="" />
-                <img src="/public/imgs/team5.png" alt="" />
+                <img src="/imgs/team2.png" alt="" />
+                <img src="/imgs/team3.png" alt="" />
+                <img src="/imgs/team4.png" alt="" />
+                <img src="/imgs/team5.png" alt="" />
               </div>
             </div>
           </div>

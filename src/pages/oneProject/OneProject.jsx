@@ -64,22 +64,22 @@ function OneProject() {
             <h1>Team members</h1>
             <div className="team_members">
               <div className="team_member">
-                <img src="/public/imgs/member1.png" alt="" />
+                <img src="/imgs/member1.png" alt="" />
                 <h4>John Thompson</h4>
                 <p>The Architect</p>
               </div>
               <div className="team_member">
-                <img src="/public/imgs/member1.png" alt="" />
+                <img src="/imgs/member1.png" alt="" />
                 <h4>John Thompson</h4>
                 <p>The Architect</p>
               </div>
               <div className="team_member">
-                <img src="/public/imgs/member1.png" alt="" />
+                <img src="/imgs/member1.png" alt="" />
                 <h4>John Thompson</h4>
                 <p>The Architect</p>
               </div>
               <div className="team_member">
-                <img src="/public/imgs/member1.png" alt="" />
+                <img src="/imgs/member1.png" alt="" />
                 <h4>John Thompson</h4>
                 <p>The Architect</p>
               </div>

@@ -39,7 +39,7 @@ function Slider() {
             return (
               <SwiperSlide>
                 <div className="slider-card">
-                  <img src="/public/imgs/view1.png" alt="" />
+                  <img src="/imgs/view1.png" alt="" />
                 </div>
               </SwiperSlide>
             );

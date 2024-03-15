@@ -83,7 +83,7 @@ function Projects() {
               </button>
             </div>
             <div className="project_imgs">
-              <img src="/public/imgs/home1.png" alt="" />
+              <img src="/imgs/home1.png" alt="" />
               <Link to={"/project/1"}>
                 <span>
                   <FaEye /> View{" "}
@@ -143,7 +143,7 @@ function Projects() {
               </button>
             </div>
             <div className="project_imgs">
-              <img src="/public/imgs/home1.png" alt="" />
+              <img src="/imgs/home1.png" alt="" />
               <Link to={"/project/1"}>
                 <span>
                   <FaEye /> View{" "}
@@ -203,7 +203,7 @@ function Projects() {
               </button>
             </div>
             <div className="project_imgs">
-              <img src="/public/imgs/home1.png" alt="" />
+              <img src="/imgs/home1.png" alt="" />
               <Link to={"/project/1"}>
                 <span>
                   <FaEye /> View{" "}
