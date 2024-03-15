@@ -208,7 +208,7 @@ section {
 
     .hero .container {
         background-size: 120%;
-        background-position-y: 0px;
+        background-position-y: 100px;
     }
 
     .swiper_container {
