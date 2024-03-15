@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/logo.svg";
+import { HiMiniBars3BottomRight } from "react-icons/hi2";
 
 function Navbar() {
+  const [showMenu, setShowMenu] = useState(false);
   const [navFixed, setNavFixed] = useState(false);
   window.addEventListener("scroll", () => {
     if (window.scrollY > 1) {
@@ -30,7 +32,48 @@ function Navbar() {
           </li>
           <button>Contact us</button>
         </ul>
+        <span
+          onClick={() => {
+            setShowMenu(!showMenu);
+          }}
+          className="menu_icon"
+        >
+          <HiMiniBars3BottomRight />
+        </span>
       </div>
+      <ul className={showMenu ? " menu_list active" : "menu_list"}>
+        <li>
+          <NavLink
+            onClick={() => {
+              setShowMenu(false);
+            }}
+            to={"/"}
+          >
+            Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            onClick={() => {
+              setShowMenu(false);
+            }}
+            to={"/projects"}
+          >
+            Our projects
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            onClick={() => {
+              setShowMenu(false);
+            }}
+            to={"/team"}
+          >
+            Our team
+          </NavLink>
+        </li>
+        <button>Contact us</button>
+      </ul>
     </nav>
   );
 }
