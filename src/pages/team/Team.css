@@ -1,0 +1,142 @@
+.team_page .container {
+    background: url("/public/imgs/teamHerobg.png");
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    height: 100vh !important;
+    display: flex;
+    align-items: center;
+}
+
+.team_page .container div {
+    width: 500px;
+}
+
+.team_page .container div h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.team_page .container div p {
+    font-size: 20px;
+}
+
+.members {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    padding: 60px 0px;
+}
+
+.member {
+    width: 300px;
+    text-align: center;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.282);
+}
+
+.member>div:nth-child(1) {
+    position: relative;
+    overflow: hidden;
+}
+
+.member img {
+    width: 100%;
+    display: flex;
+}
+
+.member .member_title {
+    background-color: white;
+    padding: 10px 0px;
+}
+
+.member .member_title h3 {
+    margin-bottom: 4px;
+    font-size: 22px;
+}
+
+.member .member_title p {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.70);
+}
+
+.member .member_info {
+    position: absolute;
+    padding: 40px 20px;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    text-align: left;
+    color: white;
+    background-color: rgba(60, 90, 154, 0.904);
+    transition: all .4s ease;
+}
+
+.member:hover .member_info {
+    top: 0px;
+}
+
+.memories {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 40px 0px;
+}
+
+.memories>img {
+    width: 300px;
+}
+
+.imgs {
+    width: 800px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.imgs img {
+    width: 370px;
+}
+
+@media (max-width: 476px) {
+    .memories img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .team_page .container div {
+        width: 100%;
+        color: rgb(0, 0, 0);
+        padding: 0px 30px;
+        background-color: rgba(255, 255, 255, 0.217);
+        backdrop-filter: blur(10px);
+    }
+
+    .team_page .container {
+        background-size: 130%;
+        background-position: center;
+        background-position-y: 100px;
+        height: 60vh !important;
+    }
+
+    .team_page .container div h1 {
+        font-size: 40px;
+    }
+
+    .team_page .container div p {
+        font-size: 16px;
+    }
+
+    .members {
+        padding: 0px;
+    }
+}

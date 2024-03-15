@@ -1,0 +1,10 @@
+.homeslides .swiper-slide {
+    /* width: 40rem !important; */
+    width: 100% !important;
+
+}
+
+.homeslides .slider-card {
+    width: 100%;
+
+}

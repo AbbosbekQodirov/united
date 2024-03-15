@@ -18,7 +18,7 @@ nav .container {
 }
 
 .navbar.fixed .container {
-    padding: 20px 0px;
+    padding: 15px 0px;
 }
 
 
@@ -53,4 +53,19 @@ nav .container {
     background: -webkit-linear-gradient(45deg, #FF0089, #00B3FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 476px) {
+     .container {
+        padding: 20px 10px !important;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .logoImg {
+        width: 200px;
+        display: flex !important;
+    }
 }

@@ -19,3 +19,19 @@ body {
 ul {
   list-style: none;
 }
+
+button {
+  transition: all .3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 476px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
