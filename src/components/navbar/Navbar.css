@@ -73,11 +73,12 @@ nav .container {
     padding: 50px 30px;
     border-radius: 5px;
     line-height: 30px;
-    right: -400px;
+    right: -500px;
     transition: all .3s ease;
     box-shadow: 0px 0px 10px 2px rgb(75, 75, 75);
     font-size: 22px;
     line-height: 40px;
+    display: none;
 }
 
 .menu_list.active {
@@ -104,6 +105,10 @@ nav .container {
 @media (max-width: 476px) {
     .container {
         padding: 20px 10px !important;
+    }
+
+    .menu_list {
+        display: block;
     }
 
     .menu_icon {
