@@ -3,8 +3,10 @@ import "./OneProjct.css";
 import Footer from "../../components/footer/Footer";
 import Contact from "../../components/contact/Contact";
 import Slider from "../../components/slider/Slider";
+import { useTranslation } from "react-i18next";
 
 function OneProject() {
+  const { t } = useTranslation();
   useEffect(() => {
     window.scrollTo({
       top: 0,
@@ -15,7 +17,7 @@ function OneProject() {
     <div className="one_project">
       <header>
         <div className="hero">
-          <h1>Maison Calme</h1>
+          <h1>{t("Maison Calme")}</h1>
           <p>by Unted Dolphins 2024</p>
         </div>
       </header>
@@ -25,12 +27,12 @@ function OneProject() {
             <table>
               <tbody>
                 <tr>
-                  <td>Location:</td>
-                  <td>Indoor area:</td>
-                  <td>Outdoor area:</td>
-                  <td>Rooms:</td>
-                  <td>WC:</td>
-                  <td>Swimming pool:</td>
+                  <td>{t("Location")}:</td>
+                  <td>{t("Indoor area")}:</td>
+                  <td>{t("Outdoor area")}:</td>
+                  <td>{t("Rooms")}:</td>
+                  <td>{t("WC")}:</td>
+                  <td>{t("Swimming pool")}:</td>
                 </tr>
                 <tr>
                   <td>
@@ -61,27 +63,27 @@ function OneProject() {
         </section>
         <section>
           <div className="container team_container">
-            <h1>Team members</h1>
+            <h1>{t("Team members")}</h1>
             <div className="team_members">
               <div className="team_member">
                 <img src="/imgs/member1.png" alt="" />
                 <h4>John Thompson</h4>
-                <p>The Architect</p>
+                <p>{t("The Architect")}</p>
               </div>
               <div className="team_member">
                 <img src="/imgs/member1.png" alt="" />
                 <h4>John Thompson</h4>
-                <p>The Architect</p>
+                <p>{t("The Architect")}</p>
               </div>
               <div className="team_member">
                 <img src="/imgs/member1.png" alt="" />
                 <h4>John Thompson</h4>
-                <p>The Architect</p>
+                <p>{t("The Architect")}</p>
               </div>
               <div className="team_member">
                 <img src="/imgs/member1.png" alt="" />
                 <h4>John Thompson</h4>
-                <p>The Architect</p>
+                <p>{t("The Architect")}</p>
               </div>
             </div>
           </div>

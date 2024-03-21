@@ -8,8 +8,10 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import { Autoplay, EffectCoverflow, Pagination, Navigation } from "swiper";
+import { useTranslation } from "react-i18next";
 
 function Slider() {
+  const { t } = useTranslation();
   const [imgs, setImgs] = useState([
     {
       img: "/imgs/herobg1.png",
@@ -51,6 +53,7 @@ function Slider() {
           effect={"coverflow"}
           grabCursor={true}
           centeredSlides={true}
+          speed={600}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
@@ -81,7 +84,7 @@ function Slider() {
                     className="container"
                   >
                     <div className="hero_info ">
-                      <h3>Beautiful view</h3>
+                      <h3>{t("Beautiful view")}</h3>
                       <p>
                         Lorem ipsum dolor sit amet consectetur. Ultricies
                         sodales neque aliquam posuere est congue. Nibh tincidunt
@@ -89,7 +92,7 @@ function Slider() {
                       </p>
                     </div>
                     <div className="hero_info ">
-                      <h3>Luxury apartments</h3>
+                      <h3>{t("Luxury apartments")}</h3>
                       <p>
                         Lorem ipsum dolor sit amet consectetur. Ultricies
                         sodales neque aliquam posuere est congue. Nibh tincidunt
@@ -97,7 +100,7 @@ function Slider() {
                       </p>
                     </div>
                     <div className="hero_info ">
-                      <h3>Fresh air</h3>
+                      <h3>{t("Fresh air")}</h3>
                       <p>
                         Lorem ipsum dolor sit amet consectetur. Ultricies
                         sodales neque aliquam posuere est congue. Nibh tincidunt
@@ -105,7 +108,7 @@ function Slider() {
                       </p>
                     </div>
                     <div className="hero_info ">
-                      <h3>Free parking space</h3>
+                      <h3>{t("Free parking space")}</h3>
                       <p>
                         Lorem ipsum dolor sit amet consectetur. Ultricies
                         sodales neque
@@ -114,7 +117,7 @@ function Slider() {
                   </div>
 
                   <div>
-                    <h2 className="hero_title">{item.title}</h2>
+                    <h2 className="hero_title">{t(item.title)}</h2>
                   </div>
                 </div>
               </SwiperSlide>

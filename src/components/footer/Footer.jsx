@@ -1,8 +1,10 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
-import "./Footer.css"
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Footer.css";
+import { useTranslation } from "react-i18next";
 
 function Footer() {
+  const { t } = useTranslation();
   return (
     <footer>
       <div className="container">
@@ -12,25 +14,25 @@ function Footer() {
         </div>
         <div className="footer_right">
           <ul>
-            <h3>Explore</h3>
+            <h3>{t("Explore")}</h3>
             <li>
-              <Link>Services</Link>
+              <Link>{t("Services")}</Link>
             </li>
             <li>
-              <Link>For partners</Link>
-            </li>
-          </ul>
-          <ul>
-            <h3>Company</h3>
-            <li>
-              <Link>FAQ</Link>
-            </li>
-            <li>
-              <Link>Team</Link>
+              <Link>{t("For partners")}</Link>
             </li>
           </ul>
           <ul>
-            <h3>Get in touch</h3>
+            <h3>{t("Company")}</h3>
+            <li>
+              <Link>{t("FAQ")}</Link>
+            </li>
+            <li>
+              <Link>{t("Team")}</Link>
+            </li>
+          </ul>
+          <ul>
+            <h3>{t("Get in touch")}</h3>
             <li>
               <Link>+14 (842) 989 2259</Link>
             </li>
@@ -44,4 +46,4 @@ function Footer() {
   );
 }
 
-export default Footer
+export default Footer;
