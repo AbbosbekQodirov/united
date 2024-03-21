@@ -21,6 +21,7 @@ function Navbar() {
 
   const changeLanguage = (e) => {
     i18n.changeLanguage(e.target.value);
+    setShowMenu(false);
   };
   return (
     <nav className={navFixed ? "navbar fixed" : "navbar"}>
@@ -88,8 +89,14 @@ function Navbar() {
             Our team
           </NavLink>
         </li>
-
-        <button>Contact us</button>
+        <button>Contact us</button> <br />
+        <select
+          onChange={changeLanguage}
+          value={localStorage.getItem("i18nextLng")}
+        >
+          <option value="en">Eng</option>
+          <option value="ru">Ru</option>
+        </select>
       </ul>
     </nav>
   );
