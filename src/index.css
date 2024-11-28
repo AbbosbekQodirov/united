@@ -27,4 +27,14 @@ button {
 
 button:hover {
   transform: scale(1.1);
+<<<<<<< HEAD
+=======
+}
+
+@media (max-width: 476px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+>>>>>>> 7dbc3e4937d09a9950fd5eaf292be1f4a4bc0a1d
 }

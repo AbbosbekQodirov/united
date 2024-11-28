@@ -5,6 +5,10 @@ footer {
 
 footer .container {
     display: flex;
+<<<<<<< HEAD
+=======
+    flex-wrap: wrap;
+>>>>>>> 7dbc3e4937d09a9950fd5eaf292be1f4a4bc0a1d
     justify-content: space-between;
 }
 
@@ -31,4 +35,29 @@ footer .container {
     font-weight: bold;
     font-size: 16px;
     font-weight: 600;
+<<<<<<< HEAD
+=======
+}
+
+@media (max-width: 476px) {
+    .footer_right {
+        gap: 10px !important;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .footer_right ul {
+        width: 40%;
+        margin-bottom: 20px;
+    }
+
+    .footer_right ul:last-child {
+        width: 100%;
+    }
+
+    .footer_left {
+        margin-bottom: 40px;
+    }
+>>>>>>> 7dbc3e4937d09a9950fd5eaf292be1f4a4bc0a1d
 }

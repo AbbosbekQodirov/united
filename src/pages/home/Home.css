@@ -1,5 +1,9 @@
 .hero {
     margin-bottom: 30px;
+<<<<<<< HEAD
+=======
+    background-color: #E9EEF4;
+>>>>>>> 7dbc3e4937d09a9950fd5eaf292be1f4a4bc0a1d
 }
 
 .hero .container {
@@ -12,10 +16,6 @@
     position: relative;
 }
 
-.hero_info {
-    width: 380px;
-    position: absolute;
-}
 
 .hero_info h3 {
     font-size: 24px;
@@ -25,11 +25,28 @@
     font-size: 14px;
 }
 
+.hero_info {
+    width: 380px;
+    position: absolute;
+    transition: all .3s ease;
+}
+
 .hero_info:nth-child(1) {
     width: 450px;
     top: 180px;
     left: 0px;
+    /* animation: anime1 1s linear; */
 }
+
+/* @keyframes anime1 {
+    0% {
+        top: 0px;
+    }
+
+    100% {
+        top: 180px;
+    }
+} */
 
 .hero_info:nth-child(2) {
     top: 400px;
@@ -65,6 +82,7 @@ section {
 
 .priorities {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 220px;
     padding: 20px 0px;
@@ -85,6 +103,10 @@ section {
     justify-content: space-between;
     gap: 100px;
     margin-bottom: 40px;
+<<<<<<< HEAD
+=======
+    /* flex-wrap: wrap; */
+>>>>>>> 7dbc3e4937d09a9950fd5eaf292be1f4a4bc0a1d
 }
 
 .project:nth-child(even) {
@@ -156,3 +178,97 @@ section {
     cursor: pointer;
 }
 
+<<<<<<< HEAD
+=======
+@media (max-width: 476px) {
+    .hero_info {
+        background-color: rgba(255, 255, 255, 0.47) !important;
+        backdrop-filter: blur(4px);
+        position: static;
+        text-align: left !important;
+        width: 100% !important;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .hero_info h3 {
+        font-size: 16px;
+    }
+
+    .hero_info p {
+        font-size: 12px;
+    }
+
+    .hero_title {
+        font-size: 22px;
+    }
+
+    .hero .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+
+
+
+
+
+    .hero .container {
+        background-size: 120%;
+        background-position-y: 100px;
+    }
+
+    .swiper_container {
+        height: auto !important;
+    }
+
+    .hero .container {
+        height: auto !important;
+        padding-top: 30vh !important;
+    }
+
+    .priorities {
+        gap: 100px;
+    }
+
+    .priorities img {
+        width: 60px !important;
+    }
+
+    .project {
+        flex-direction: column !important;
+
+    }
+
+    .project .project_img img {
+        width: 80% !important;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .project_info h1 {
+        font-size: 20px;
+    }
+
+    .project_info p {
+        font-size: 12px;
+    }
+
+    .moreBtn {
+        margin: 0px auto !important;
+    }
+
+    .section_title {
+        font-size: 26px;
+    }
+
+    .history img {
+        width: 100%;
+    }
+
+    .history .play img {
+        width: 50px !important;
+    }
+}
+>>>>>>> 7dbc3e4937d09a9950fd5eaf292be1f4a4bc0a1d

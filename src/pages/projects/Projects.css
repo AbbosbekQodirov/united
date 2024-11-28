@@ -25,6 +25,10 @@
 
 .our_project {
     display: flex;
+<<<<<<< HEAD
+=======
+    flex-wrap: wrap;
+>>>>>>> 7dbc3e4937d09a9950fd5eaf292be1f4a4bc0a1d
     justify-content: space-between;
     align-items: center;
     padding: 40px 0px;
@@ -61,11 +65,29 @@
 
 .our_project .project_imgs {
     position: relative;
+<<<<<<< HEAD
+=======
+    overflow: hidden;
+    border-radius: 30px;
+>>>>>>> 7dbc3e4937d09a9950fd5eaf292be1f4a4bc0a1d
 }
 
 .our_project .project_imgs img {
     width: 800px;
     border-radius: 10px;
+<<<<<<< HEAD
+=======
+    transition: all .4s ease;
+    display: flex;
+}
+
+.our_project .project_imgs:hover img {
+    transform: scale(1.3);
+}
+
+.our_project .project_imgs:hover span {
+    background-color: white;
+>>>>>>> 7dbc3e4937d09a9950fd5eaf292be1f4a4bc0a1d
 }
 
 .project_imgs span {
@@ -84,6 +106,10 @@
     border-radius: 8px;
     cursor: pointer;
     color: black;
+<<<<<<< HEAD
+=======
+    transition: all .4s ease;
+>>>>>>> 7dbc3e4937d09a9950fd5eaf292be1f4a4bc0a1d
 }
 
 .project_info button {
@@ -103,4 +129,48 @@
 
 .project_info button span {
     font-size: 22px;
+<<<<<<< HEAD
+=======
+}
+
+@media (max-width: 476px) {
+    .our_project {
+        justify-content: center;
+        padding-top: 0px !important;
+    }
+
+    .project_imgs img {
+        width: 100% !important;
+    }
+
+    .project_info {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .project_page .container {
+        background-size: 100%;
+        padding: 0px 0px !important;
+        padding-top: 100px !important;
+        background-position-y: end;
+        height: 100vh !important;
+        justify-content: start;
+    }
+
+    .project_page .container div {
+        width: 100%;
+        color: rgb(0, 0, 0);
+        padding: 0px 30px;
+        background-color: rgba(255, 255, 255, 0.217);
+        backdrop-filter: blur(10px);
+    }
+
+    .project_page .container div h1 {
+        font-size: 40px;
+    }
+
+    .project_page .container div p {
+        font-size: 16px;
+    }
+>>>>>>> 7dbc3e4937d09a9950fd5eaf292be1f4a4bc0a1d
 }

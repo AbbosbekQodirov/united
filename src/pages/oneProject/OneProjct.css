@@ -58,4 +58,31 @@
 
 .team_member p {
     font-weight: 600;
+<<<<<<< HEAD
+=======
+}
+
+@media (max-width: 476px) {
+    .one_project .hero {
+        background-repeat: repeat;
+    }
+
+    .one_project {
+        padding-top: 60px;
+    }
+
+    .team_members {
+        justify-content: center;
+    }
+
+    .team_member {
+        width: 150px;
+    }
+
+    .one_project table {
+        font-size: 14px;
+        line-height: 20px;
+        overflow-x: scroll !important;
+    }
+>>>>>>> 7dbc3e4937d09a9950fd5eaf292be1f4a4bc0a1d
 }

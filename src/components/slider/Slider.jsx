@@ -39,7 +39,11 @@ function Slider() {
             return (
               <SwiperSlide>
                 <div className="slider-card">
+<<<<<<< HEAD
                   <img src="/public/imgs/view1.png" alt="" />
+=======
+                  <img src="/imgs/view1.png" alt="" />
+>>>>>>> 7dbc3e4937d09a9950fd5eaf292be1f4a4bc0a1d
                 </div>
               </SwiperSlide>
             );

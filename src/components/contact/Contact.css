@@ -6,6 +6,10 @@
 
 .contacts {
     display: flex;
+<<<<<<< HEAD
+=======
+    flex-wrap: wrap;
+>>>>>>> 7dbc3e4937d09a9950fd5eaf292be1f4a4bc0a1d
     justify-content: space-between;
     margin: 50px;
     padding-top: 60px;
@@ -48,4 +52,21 @@
     color: hsla(221, 44%, 42%, 0.75);
     margin-bottom: 10px;
     font-weight: 600;
+<<<<<<< HEAD
+=======
+}
+
+@media (max-width: 476px) {
+    .contacts {
+        margin: 0 auto !important;
+        padding: 10px !important;
+        padding-top: 60px !important;
+        width: 90%;
+        gap: 60px;
+    }
+
+    .contacts .contact {
+        width: 100% !important;
+    }
+>>>>>>> 7dbc3e4937d09a9950fd5eaf292be1f4a4bc0a1d
 }
