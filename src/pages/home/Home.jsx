@@ -1,7 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./Home.css";
+import Footer from "../../components/footer/Footer";
+import Contact from "../../components/contact/Contact";
 
 function Home() {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <>
       <header>
@@ -70,16 +79,88 @@ function Home() {
         <section>
           <div className="container">
             <h1 className="section_title">Our Projects</h1>
+            <div className="projects">
+              <div className="project">
+                <div className="project_info">
+                  <h1>Central Park Residence</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Metus metus nunc
+                    odio id. Duis sed nisl nec dolor purus velit. Tellus vivamus
+                    blandit at varius sit pretium in in id. Diam nullam sit
+                    consectetur mauris ultrices.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Metus metus nunc
+                    odio id. Duis sed nisl nec dolor purus velit.
+                  </p>
+                  <button>
+                    <img src="/public/imgs/eye.svg" alt="" /> 3d View
+                  </button>
+                </div>
+                <div className="project_img">
+                  <img src="/public/imgs/project1.png" alt="" />
+                </div>
+              </div>
+              <div className="project">
+                <div className="project_info">
+                  <h1>Emerald Castle Residence</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Metus metus nunc
+                    odio id. Duis sed nisl nec dolor purus velit. Tellus vivamus
+                    blandit at varius sit pretium in in id. Diam nullam sit
+                    consectetur mauris ultrices.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Metus metus nunc
+                    odio id. Duis sed nisl nec dolor purus velit.
+                  </p>
+                  <button>
+                    <img src="/public/imgs/eye.svg" alt="" /> 3d View
+                  </button>
+                </div>
+                <div className="project_img">
+                  <img src="/public/imgs/project2.png" alt="" />
+                </div>
+              </div>
+              <div className="project">
+                <div className="project_info">
+                  <h1>Maison Calme</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Metus metus nunc
+                    odio id. Duis sed nisl nec dolor purus velit. Tellus vivamus
+                    blandit at varius sit pretium in in id. Diam nullam sit
+                    consectetur mauris ultrices.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Metus metus nunc
+                    odio id. Duis sed nisl nec dolor purus velit.
+                  </p>
+                  <button>
+                    <img src="/public/imgs/eye.svg" alt="" /> 3d View
+                  </button>
+                </div>
+                <div className="project_img">
+                  <img src="/public/imgs/project3.png" alt="" />
+                </div>
+              </div>
+              <button className="moreBtn">View more</button>
+            </div>
           </div>
         </section>
         <section>
-          <div className="container"></div>
+          <div className="container">
+            <h1 className="section_title">Our History</h1>
+            <div className="history">
+              <img src="/public/imgs/history_img.png" alt="" />
+              <span className="play">
+                <img src="/public/imgs/Play.png" alt="" />
+              </span>
+            </div>
+          </div>
         </section>
-        <section>
-          <div className="container"></div>
-        </section>
+        <Contact />
       </main>
-      <footer></footer>
+      <Footer />
     </>
   );
 }

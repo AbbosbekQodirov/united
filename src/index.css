@@ -19,3 +19,12 @@ body {
 ul {
   list-style: none;
 }
+
+button {
+  transition: all .3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
